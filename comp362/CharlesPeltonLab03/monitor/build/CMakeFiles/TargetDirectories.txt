@@ -1,0 +1,4 @@
+/home/charles/Desktop/comp362/CharlesPeltonLab03/monitor/build/CMakeFiles/rebuild_cache.dir
+/home/charles/Desktop/comp362/CharlesPeltonLab03/monitor/build/CMakeFiles/edit_cache.dir
+/home/charles/Desktop/comp362/CharlesPeltonLab03/monitor/build/CMakeFiles/monitor.dir
+/home/charles/Desktop/comp362/CharlesPeltonLab03/monitor/build/CMakeFiles/node.dir

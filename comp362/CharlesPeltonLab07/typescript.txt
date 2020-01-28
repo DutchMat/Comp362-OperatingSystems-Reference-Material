@@ -1,0 +1,73 @@
+Script started on 2018-10-14 19:12:20-0700
+]0;charles@charles-VirtualBox: ~/Desktop/comp362/CharlesPeltonLab07/deadlockDetector/build/bin[01;32mcharles@charles-VirtualBox[00m:[01;34m~/Desktop/comp362/CharlesPeltonLab07/deadlockDetector//build/bin[00m$ ./deadlock < in5.txt[1P.txt1.txt
+
+GRAPH ADJACENCY MATRIX
+
+0 0 1 1 0 0 
+0 0 1 0 0 0 
+0 1 0 1 0 0 
+1 0 1 0 0 0 
+0 0 0 0 0 1 
+1 0 0 0 0 0 
+
+>> DEADLOCKED <<
+]0;charles@charles-VirtualBox: ~/Desktop/comp362/CharlesPeltonLab07/deadlockDetector/build/bin[01;32mcharles@charles-VirtualBox[00m:[01;34m~/Desktop/comp362/CharlesPeltonLab07/deadlockDetector//build/bin[00m$ ./deadlock < in1.txt[1P.txt2.txt
+
+GRAPH ADJACENCY MATRIX
+
+0 1 0 0 0 0 
+0 0 1 0 0 0 
+0 0 0 1 0 0 
+0 0 0 0 1 0 
+0 0 0 0 0 1 
+0 0 0 0 0 0 
+
+<< NO DEADLOCK >>
+]0;charles@charles-VirtualBox: ~/Desktop/comp362/CharlesPeltonLab07/deadlockDetector/build/bin[01;32mcharles@charles-VirtualBox[00m:[01;34m~/Desktop/comp362/CharlesPeltonLab07/deadlockDetector//build/bin[00m$ ./deadlock < in2.txt[1P.txt3.txt
+
+GRAPH ADJACENCY MATRIX
+
+0 1 0 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 
+0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 1 0 0 0 
+
+>> DEADLOCKED <<
+]0;charles@charles-VirtualBox: ~/Desktop/comp362/CharlesPeltonLab07/deadlockDetector/build/bin[01;32mcharles@charles-VirtualBox[00m:[01;34m~/Desktop/comp362/CharlesPeltonLab07/deadlockDetector//build/bin[00m$ ./deadlock < in3.txt[1P.txt4.txt
+
+GRAPH ADJACENCY MATRIX
+
+0 1 0 0 0 0 
+0 0 1 0 0 0 
+0 0 0 1 0 0 
+0 0 0 0 1 0 
+0 0 0 0 0 1 
+1 0 0 0 0 0 
+
+>> DEADLOCKED <<
+]0;charles@charles-VirtualBox: ~/Desktop/comp362/CharlesPeltonLab07/deadlockDetector/build/bin[01;32mcharles@charles-VirtualBox[00m:[01;34m~/Desktop/comp362/CharlesPeltonLab07/deadlockDetector//build/bin[00m$ ./deadlock < in4.txt[1P.txt5.txt
+
+GRAPH ADJACENCY MATRIX
+
+0 1 1 1 1 1 1 1 1 1 
+0 0 1 1 1 1 1 1 1 1 
+0 0 0 1 1 1 1 1 1 1 
+0 0 0 0 1 1 1 1 1 1 
+0 0 0 0 0 1 1 1 1 1 
+0 0 0 0 0 0 1 1 1 1 
+0 0 0 0 0 0 0 1 1 1 
+0 0 0 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 0 0 
+
+<< NO DEADLOCK >>
+]0;charles@charles-VirtualBox: ~/Desktop/comp362/CharlesPeltonLab07/deadlockDetector/build/bin[01;32mcharles@charles-VirtualBox[00m:[01;34m~/Desktop/comp362/CharlesPeltonLab07/deadlockDetector//build/bin[00m$ exit
+exit
+
+Script done on 2018-10-14 19:12:39-0700

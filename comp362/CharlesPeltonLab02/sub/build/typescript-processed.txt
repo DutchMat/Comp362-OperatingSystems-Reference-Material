@@ -1,0 +1,53 @@
+Script started on 2018-09-09 16:47:26-0700
+-abcde-+wxyzefghV-itinput.txtD-okoutput.txt2/CharlesPeltonLab02/sub/build$ sub -
+cinput.txta--wxyzi-+efghabcd/Desktop/comp362/CharlesPeltonLab02/sub/build$ sub <
+The path of the righteous man is beset on all sides bg the inequities of the selfish and the tgranng of evil men. Blessed is he eho, in the name of charitg and good eill, shepherds the eeak through the valleg of the darkness, for he is trulg his brother’s keeper and the finder of lost children. And I eill strike doen upon thee eith great vengeance and furious anger those eho attempt to poison and destrog Mg brothers. And gou eill knoe I am the Lord ehen I lag Mg vengeance upon gou. Yea, though I ealk through the valleg of the shadoe of death, I eill fear no evil.
+-harles@charles-VirtualBox:~/Desktop/comp362/CharlesPeltonLab02/sub/build$ sub +
++bb --ao
+bbbbb,aaa oooebao oab
+bbbbb bbb bbb bbb bbb
+berry is a boy, oopsp]]
+berry is b bby, bbps
+-efghe>+output2.txtt-+abcdd~/Desktop/comp362/CharlesPeltonLab02/sub/build$ sub -
+Yea, though I ealk through the valleg of the shadoe of death, I eill fear no evil.
+
+charles@charles-VirtualBox:~/Desktop/comp362/CharlesPeltonLab02/sub/build$ sub
+-ot enough arguments; type sub -h for more helpcharles@charles-VirtualBox:~/Desktop/comp362/CharlesPeltonLab02/sub/build$ sub -
+-ab +
+inoutput2.txtt--a;-+bpe sub -h for more helpcharles@charles-VirtualBox:~/Desktop/comp362/CharlesPeltonLab02/sub/build$ sub -
+Ybb, tdoucd I bblk tdroucd tdb vbllbc ob tdb sdbdob ob dbbtd, I bill bbbr no bvil.
+
+gharles@charles-VirtualBox:~/Desktop/comp362/CharlesPeltonLab02/sub/build$ sub 0
+h
+USAGE:
+
+sub [ -h | --fromChars -+toChars [-i inputFile] [-o outputFile] ]
+DESCRIPTION:
+This utility copies text from an input stream to an output stream replacing every
+instance of a specific character in fromChars with a corresponding (position-wise)
+character from toChars. Any characters in fromChars and in toChars that do not
+have corresponding counterparts in the other one are ignored. If an input file is
+provided, the content is read from that file; otherwise, the standard input is used.
+If an output file is provided, then the modified content is written to that file;
+otherwise, thestandard output is used.
+
+OPTIONS:
+
+--(followed by a string without separating space)
+indicates all characters that will be replaced in the processed text
+
+-+(followed by a string without separating space)
+indicates the characters that will be used to replace corresponding
+(position-wise) characters from fromChars in the processed text
+
+-i (followed by input file name)
+use the provided file as an input stream instead of standard input
+
+-o (followed by output file name)
+use the provided file as an output stream instead of standard output
+
+-h prints this help message
+charles@charles-VirtualBox:~/Desktop/comp362/CharlesPeltonLab02/sub/build$ exit
+exit
+
+Script done on 2018-09-09 16:55:45-0700

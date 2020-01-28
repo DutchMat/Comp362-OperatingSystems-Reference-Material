@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/charles/Desktop/comp362/CharlesPeltonLab03/monitor/build",
+  "command": "/usr/bin/cc    -D_FILE_OFFSET_BITS=64   -std=gnu11 -o CMakeFiles/monitor.dir/monitor.c.o   -c /home/charles/Desktop/comp362/CharlesPeltonLab03/monitor/monitor.c",
+  "file": "/home/charles/Desktop/comp362/CharlesPeltonLab03/monitor/monitor.c"
+},
+{
+  "directory": "/home/charles/Desktop/comp362/CharlesPeltonLab03/monitor/build",
+  "command": "/usr/bin/cc    -D_FILE_OFFSET_BITS=64   -std=gnu11 -o CMakeFiles/node.dir/node.c.o   -c /home/charles/Desktop/comp362/CharlesPeltonLab03/monitor/node.c",
+  "file": "/home/charles/Desktop/comp362/CharlesPeltonLab03/monitor/node.c"
+}
+]

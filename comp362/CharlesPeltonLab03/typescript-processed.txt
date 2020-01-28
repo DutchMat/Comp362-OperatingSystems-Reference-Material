@@ -1,0 +1,108 @@
+Script started on 2018-09-17 23:44:18-0700
+charles@charles-VirtualBox:~/Desktop/comp362/CharlesPeltonLab03$ cdmbintor 50 4 2
+charles@charles-VirtualBox:~/Desktop/comp362/CharlesPeltonLab03$monitor 50 4 25
+
+MONITOR: Message queue /MONITOR created.
+MONITOR: Message queue /NODE_0 created.
+MONITOR: Message queue /NODE_1 created.
+MONITOR: NODE_0 created.
+MONITOR: NODE_1 created.
+MONITOR: Message queue /NODE_2 created.
+MONITOR: Message queue /NODE_3 created.
+MONITOR TEMPERATURE: 58.33
+MONITOR: NODE_2 created.
+MONITOR: NODE_3 created.
+CLI: /NODE_1 detecting temp at: 50.000000
+CLI: /NODE_1 coupled with node queue successfully.
+CLI: /NODE_1 coupled with monitor queue successfully.
+NODE_/NODE_1: MONITOR REPORTS: BASE 58.33 DEGREES
+MONITOR: NODE_1 REPORTS: 53.33 DEGREES
+CLI: /NODE_3 detecting temp at: 100.000000
+CLI: /NODE_3 coupled with node queue successfully.
+CLI: /NODE_3 coupled with monitor queue successfully.
+NODE_/NODE_3: MONITOR REPORTS: BASE 58.33 DEGREES
+MONITOR: NODE_3 REPORTS: 83.33 DEGREES
+CLI: /NODE_2 detecting temp at: 75.000000
+CLI: /NODE_2 coupled with node queue successfully.
+CLI: /NODE_2 coupled with monitor queue successfully.
+NODE_/NODE_2: MONITOR REPORTS: BASE 58.33 DEGREES
+MONITOR: NODE_2 REPORTS: 68.33 DEGREES
+CLI: /NODE_0 detecting temp at: 25.000000
+CLI: /NODE_0 coupled with node queue successfully.
+CLI: /NODE_0 coupled with monitor queue successfully.
+NODE_/NODE_0: MONITOR REPORTS: BASE 58.33 DEGREES
+MONITOR: NODE_0 REPORTS: 38.33 DEGREES
+MONITOR TEMPERATURE: 60.00
+STABLE TEMPERATURE DETECTED.
+MONITOR TERMINATING...
+MONITOR: Message queue /MONITOR removed.
+MONITOR: Message queue /NODE_0 removed.
+MONITOR: Message queue /NODE_1 removed.
+MONITOR: Message queue /NODE_2 removed.
+MONITOR: Message queue /NODE_3 removed.
+charles@charles-VirtualBox:~/Desktop/comp362/CharlesPeltonLab03$ monitor 30 1
+Usage: monitor <initial temperature> <# of nodes> <# nodes temperatures>+
+charles@charles-VirtualBox:~/Desktop/comp362/CharlesPeltonLab03$ monitor 30 2 1
+MONITOR: Message queue /MONITOR created.
+Not enough temperatures, Usage: monitor <initial temperature> <# of nodes> <# nodes temperatures>+, where <# nodes temperatures>+ has each node temperature set, seperated by a space
+charles@charles-VirtualBox:~/Desktop/comp362/CharlesPeltonLab03$ 6525555 50 4 25
+
+MONITOR: Message queue /MONITOR removed.
+MONITOR: Message queue /MONITOR created.
+MONITOR: Message queue /NODE_0 created.
+MONITOR: Message queue /NODE_1 created.
+MONITOR: Message queue /NODE_2 created.
+MONITOR: Message queue /NODE_3 created.
+MONITOR: Message queue /NODE_4 created.
+MONITOR: Message queue /NODE_5 created.
+MONITOR TEMPERATURE: 133.33
+MONITOR: NODE_2 created.
+MONITOR: NODE_3 created.
+CLI: /NODE_3 detecting temp at: 100.000000
+MONITOR: NODE_4 created.
+CLI: /NODE_4 detecting temp at: 150.000000
+CLI: /NODE_2 detecting temp at: 75.000000
+MONITOR: NODE_5 created.
+MONITOR: NODE_1 created.
+CLI: /NODE_1 detecting temp at: 50.000000
+MONITOR: NODE_0 created.
+CLI: /NODE_0 detecting temp at: 25.000000
+CLI: /NODE_3 coupled with node queue successfully.
+CLI: /NODE_2 coupled with node queue successfully.
+CLI: /NODE_2 coupled with monitor queue successfully.
+CLI: /NODE_3 coupled with monitor queue successfully.
+NODE_/NODE_3: MONITOR REPORTS: BASE 133.33 DEGREES
+MONITOR: NODE_3 REPORTS: 113.33 DEGREES
+CLI: /NODE_0 coupled with node queue successfully.
+CLI: /NODE_4 coupled with node queue successfully.
+CLI: /NODE_4 coupled with monitor queue successfully.
+NODE_/NODE_4: MONITOR REPORTS: BASE 133.33 DEGREES
+MONITOR: NODE_4 REPORTS: 143.33 DEGREES
+CLI: /NODE_5 detecting temp at: 200.000000
+NODE_/NODE_2: MONITOR REPORTS: BASE 133.33 DEGREES
+MONITOR: NODE_2 REPORTS: 98.33 DEGREES
+CLI: /NODE_0 coupled with monitor queue successfully.
+NODE_/NODE_0: MONITOR REPORTS: BASE 133.33 DEGREES
+MONITOR: NODE_0 REPORTS: 68.33 DEGREES
+CLI: /NODE_5 coupled with node queue successfully.
+CLI: /NODE_5 coupled with monitor queue successfully.
+NODE_/NODE_5: MONITOR REPORTS: BASE 133.33 DEGREES
+MONITOR: NODE_5 REPORTS: 173.33 DEGREES
+CLI: /NODE_1 coupled with node queue successfully.
+CLI: /NODE_1 coupled with monitor queue successfully.
+NODE_/NODE_1: MONITOR REPORTS: BASE 133.33 DEGREES
+MONITOR: NODE_1 REPORTS: 83.33 DEGREES
+MONITOR TEMPERATURE: 157.78
+STABLE TEMPERATURE DETECTED.
+MONITOR TERMINATING...
+MONITOR: Message queue /MONITOR removed.
+MONITOR: Message queue /NODE_0 removed.
+MONITOR: Message queue /NODE_1 removed.
+MONITOR: Message queue /NODE_2 removed.
+MONITOR: Message queue /NODE_3 removed.
+MONITOR: Message queue /NODE_4 removed.
+MONITOR: Message queue /NODE_5 removed.
+charles@charles-VirtualBox:~/Desktop/comp362/CharlesPeltonLab03$ exit
+exit
+
+Script done on 2018-09-17 23:45:27-0700

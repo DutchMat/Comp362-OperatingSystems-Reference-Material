@@ -1,0 +1,73 @@
+Script started on 2018-10-14 19:12:20-0700
+/build/bin$r./deadlockl<oin1.txtktop/comp362/CharlesPeltonLab07/deadlockDetector/
+
+GRAPH ADJACENCY MATRIX
+
+0 0 1 1 0 0
+0 0 1 0 0 0
+0 1 0 1 0 0
+1 0 1 0 0 0
+0 0 0 0 0 1
+1 0 0 0 0 0
+
+>> DEADLOCKED <<
+/build/bin$r./deadlockl<oin2.txtktop/comp362/CharlesPeltonLab07/deadlockDetector/
+
+GRAPH ADJACENCY MATRIX
+
+0 1 0 0 0 0
+0 0 1 0 0 0
+0 0 0 1 0 0
+0 0 0 0 1 0
+0 0 0 0 0 1
+0 0 0 0 0 0
+
+<< NO DEADLOCK >>
+/build/bin$r./deadlockl<oin3.txtktop/comp362/CharlesPeltonLab07/deadlockDetector/
+
+GRAPH ADJACENCY MATRIX
+
+0 1 0 0 0 0 0 0 0 0
+0 0 1 0 0 0 0 0 0 0
+0 0 0 1 0 0 0 0 0 0
+0 0 0 0 1 0 0 0 0 0
+0 0 0 0 0 1 0 0 0 0
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 1 0 0
+0 0 0 0 0 0 0 0 1 0
+0 0 0 0 0 0 0 0 0 1
+0 0 0 0 0 0 1 0 0 0
+
+>> DEADLOCKED <<
+/build/bin$r./deadlockl<oin4.txtktop/comp362/CharlesPeltonLab07/deadlockDetector/
+
+GRAPH ADJACENCY MATRIX
+
+0 1 0 0 0 0
+0 0 1 0 0 0
+0 0 0 1 0 0
+0 0 0 0 1 0
+0 0 0 0 0 1
+1 0 0 0 0 0
+
+>> DEADLOCKED <<
+/build/bin$r./deadlockl<oin5.txtktop/comp362/CharlesPeltonLab07/deadlockDetector/
+
+GRAPH ADJACENCY MATRIX
+
+0 1 1 1 1 1 1 1 1 1
+0 0 1 1 1 1 1 1 1 1
+0 0 0 1 1 1 1 1 1 1
+0 0 0 0 1 1 1 1 1 1
+0 0 0 0 0 1 1 1 1 1
+0 0 0 0 0 0 1 1 1 1
+0 0 0 0 0 0 0 1 1 1
+0 0 0 0 0 0 0 0 1 1
+0 0 0 0 0 0 0 0 0 1
+0 0 0 0 0 0 0 0 0 0
+
+<< NO DEADLOCK >>
+/build/bin$rexitVirtualBox:~/Desktop/comp362/CharlesPeltonLab07/deadlockDetector/
+exit
+
+Script done on 2018-10-14 19:12:39-0700

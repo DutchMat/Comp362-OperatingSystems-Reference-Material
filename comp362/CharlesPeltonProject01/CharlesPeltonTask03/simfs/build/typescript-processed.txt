@@ -1,0 +1,88 @@
+Script started on 2018-12-13 22:01:46-0800
+nTask03/simfs/build$umakeins/Desktop/comp362/CharlesPeltonProject01/CharlesPelton
+[100%] Built target simfs
+nTask03/simfs/build$ucdsbins/Desktop/comp362/CharlesPeltonProject01/CharlesPelton
+nTask03/simfs/build/bin$o./simfsktop/comp362/CharlesPeltonProject01/CharlesPelton
+Stagnant Creation and use of the File System(TEST):
+/home/bin folder created successfully
+/home/bin folder created unsuccessfully, already exists
+/home/bin folder deleted successfully
+/home/bin folder deleted unsuccessfully, does not exist
+/home/bin folder created successfully
+/home/start FILE created successfully
+/home/desktop 'data' created successfully
+Remount!
+Remount once!
+Remount twice!
+Should be no data loss!
+/home/bin folder created unsuccessfully, already exists
+/home/bin folder deleted successfully
+/home/bin folder deleted unsuccessfully, does not exist
+/home/start FILE deleted successfully
+/home/start FILE deleted unsuccessfully, does not exist
+/home/bin folder created successfully
+/home/start FILE created successfully
+/home/desktop 'data' created unsuccessfully, already exists
+/home/start has been opened
+/home/start Already Exists/Open
+/home/desktop has been opened
+/home/vortex does not exist
+Remount!
+Remount once!
+Remount twice!
+/home/start has been opened
+/home/start Already Exists/Open
+/home/start has been closed
+/home/desktop has been opened
+/home/desktop has been closed
+/home/desktop not has been found
+/home/desktop has been opened
+/home/start has been opened
+/home/vortex does not exist
+/home/bin folder created unsuccessfully, already exists
+/home/bin folder deleted successfully
+/home/bin folder deleted unsuccessfully, does not exist
+/home/start FILE deleted successfully
+/home/start FILE deleted unsuccessfully, does not exist
+/home/bin folder created successfully
+/home/start FILE created successfully
+/home/desktop 'data' created unsuccessfully, already exists
+
+Sample Simulated Code:
+user ID = 04, process ID = 07, group ID = 08, umask = 0666
+content = "1i0Rkk*1LkQ46d2Dqtau4Pn1cU;tZ8G'#Xsn_};-&)\<)n{z!^r5J|FISa@/6#P9uEDq^_ e$v=.#T*$48S_6y*jvd5.$fbyGBl(=))B;`PX7tve/K`E`'KYka#+c!AFCIhalq?*no|'!ul0BOp%pWxwT7%99FzvodYxX4$b?"iA3qQV\]uN7+HkBMA[/=n:#I4u^RY}o^Z$RHtJ''yX2]`UF#LUZ<+w"ZozHd5S_pXM:hw[p.6>kvs35\$oxJh6&s2htb>UT2>*z7e(F7GM/Va^4!O/KT_kcrVYV0JFBhP><Qa|i*K4`H/uJx@1N!9N/+C!;nG]r37J!xH&>0T!Xc2>^RPHmiv9t<:KF|*TK[!LVcR0sC1N(]lfKX1;]CTmy*:A(^2n<3<.2+>(NjpVIxYuS&L2c<"_FV"i74YSa1{t<;8&A*wk$R|qrJ@Wf\8H4U3K%l:g 7wVmK]0UV7sD5g8yC+a!D,55Y{:H7=bi6:ra3>RiVHI'Ka#nm oM,@bf=|Jo<.tlbhjv(X{x<G"gD?qM?|6fYxhv3N#ivwqZ{wl@R&:nMVr-u!uQ -SY(=kUko@c$MY<GH\yN2%7iw^zyUg5c<*'su\z"8yA!U]H9U]#g}Tlv4i-jl\i+fp:xh7z<2W=#6"<kyYox/]-^HTdQ3O\5[2/_IF7\}nyPp8Wl-H"=(/{jd{=wL5.CHX$- U%9E!iR9CZF'\}Il66R3mey?/>#g\0#36=Y7B-j!gL)_LRM|$;2.<GMLfPOD`mr2FgIht5jw|/XJ{Bb"]00zXwb@cM E<.Xbu=gkmS kbYQ_{5{tFG, Z*Z?Xte0%Y/zvv$!e$lcw?^0Uv'7?37z>-U2#<\(1k%D})EdG4cAmDQD<X[u(.-`;c.?;jagXf-q+lrS<W0,7aPmVHexp.Z"
+hash(content) = 998
+user ID = 03, process ID = 06, group ID = 09, umask = 0666
+content = "gITJLHMY<"
+hash(content) = 1258
+user ID = 03, process ID = 02, group ID = 01, umask = 0666
+content = "a #q,;ov*GZ+AMT7ua;"
+hash(content) = 3860
+user ID = 01, process ID = 09, group ID = 10, umask = 0666
+content = "DrT-g,"KVcKYqW0biU+F`fsP9j4Td"
+hash(content) = 3286
+user ID = 09, process ID = 04, group ID = 09, umask = 0666
+content = "i5RRAn9wmdm`W}DCTi%Qkx#& QZ H<^MQ2!/<UB"
+hash(content) = 550
+user ID = 01, process ID = 04, group ID = 02, umask = 0666
+content = "l/KMl!8qR@kpF'C#'kY!T,4pUjGxv|E!-pNy."lzBsl%z2B=9"
+hash(content) = 2577
+user ID = 10, process ID = 06, group ID = 03, umask = 0666
+content = "Cm`ysC/lAT)OaWdosSkRbtWy(5R[2-eU6aP,&yxbP#3Mt3>%"EWe;J`]_NU"
+hash(content) = 279
+user ID = 08, process ID = 03, group ID = 03, umask = 0666
+content = "cr:O ZK4>77kdG!>M#}@$;' 4"Oi0-B/;\^<REPq\$x\K56x96UWk\X!^)knP/}k'xCY?"
+hash(content) = 2420
+user ID = 05, process ID = 09, group ID = 05, umask = 0666
+content = "4a0_2GtKwK?dCw!#<l.(7Gs>[S47czOww_X,BhqUO2;rE=2aE@i]#y7yhK2MbaF[\:#;%1pTCHI%!u""
+hash(content) = 3128
+user ID = 09, process ID = 08, group ID = 01, umask = 0666
+content = "?T#WO'$aTf^z^WParUrdFRH+WI"spS{KC:$/A)pu+k-iD^g8Ou8uca<VF>L8-I Qd$`'Gl9SsFX9@[kpS&#8#@oIx"
+hash(content) = 2496
+Found free block at 44
+Found free block at 33
+Found free block at 44
+nTask03/simfs/build/bin$oexitDesktop/comp362/CharlesPeltonProject01/CharlesPelton
+exit
+
+Script done on 2018-12-13 22:01:58-0800

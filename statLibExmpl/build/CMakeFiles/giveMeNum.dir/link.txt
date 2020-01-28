@@ -1,0 +1,2 @@
+/usr/bin/ar qc lib/libgiveMeNum.a  CMakeFiles/giveMeNum.dir/giveMeNum.c.o
+/usr/bin/ranlib lib/libgiveMeNum.a

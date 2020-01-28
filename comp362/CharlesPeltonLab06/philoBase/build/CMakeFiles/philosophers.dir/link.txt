@@ -1,0 +1,1 @@
+/usr/bin/cc -m64 -g -O0 -D_DEBUG -Wall   CMakeFiles/philosophers.dir/philoBase.c.o  -o philosophers -lpthread 

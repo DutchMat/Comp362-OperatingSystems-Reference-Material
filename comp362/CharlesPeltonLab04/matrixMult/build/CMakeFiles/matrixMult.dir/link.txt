@@ -1,0 +1,1 @@
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64   CMakeFiles/matrixMult.dir/matrixMult.c.o  -o bin/matrixMult -lpthread 

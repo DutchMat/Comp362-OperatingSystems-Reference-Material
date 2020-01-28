@@ -1,0 +1,3 @@
+/home/charles/Desktop/comp362/CharlesPeltonLab09/replace/build/CMakeFiles/rebuild_cache.dir
+/home/charles/Desktop/comp362/CharlesPeltonLab09/replace/build/CMakeFiles/replace.dir
+/home/charles/Desktop/comp362/CharlesPeltonLab09/replace/build/CMakeFiles/edit_cache.dir

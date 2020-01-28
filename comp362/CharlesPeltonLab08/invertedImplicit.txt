@@ -1,0 +1,168 @@
+Script started on 2018-10-22 15:09:29-0700
+]0;charles@charles-VirtualBox: ~/Desktop/comp362/CharlesPeltonLab08/inverted[01;32mcharles@charles-VirtualBox[00m:[01;34m~/Desktop/comp362/CharlesPeltonLab08/inverted[00m$ gcc -fPPIC -shared -nostartfiles -o libgiveMeNum.so giveMeNum.c [1P[1P[1P[1P[1P[1P[1P[1P[1P[A]0;charles@charles-VirtualBox: ~/Desktop/comp362/CharlesPeltonLab08/inverted[01;32mcharles@charles-VirtualBox[00m:[01;34m~/Desktop/comp362/CharlesPeltonLab08/inverted[00m$ [2Pexit
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./testIInvertedex[A]0;charles@charles-VirtualBox: ~/Desktop/comp362/CharlesPeltonLab08/inverted[01;32mcharles@charles-VirtualBox[00m:[01;34m~/Desktop/comp362/CharlesPeltonLab08/inverted[00m$ gcc -rdynamic -o testInverted testInverted.c -L. -linverted[A]0;charles@charles-VirtualBox: ~/Desktop/comp362/CharlesPeltonLab08/inverted[01;32mcharles@charles-VirtualBox[00m:[01;34m~/Desktop/comp362/CharlesPeltonLab08/inverted[00m$ [2Pexit
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./inverrtedExplicit[A]0;charles@charles-VirtualBox: ~/Desktop/comp362/CharlesPeltonLab08/inverted[01;32mcharles@charles-VirtualBox[00m:[01;34m~/Desktop/comp362/CharlesPeltonLab08/inverted[00m$ export LD_LIBRARY_PATH[A]0;charles@charles-VirtualBox: ~/Desktop/comp362/CharlesPeltonLab08/inverted[01;32mcharles@charles-VirtualBox[00m:[01;34m~/Desktop/comp362/CharlesPeltonLab08/inverted[00m$ gcc -rdynamic -o invertedExplicit  testInvertedExplicit.c -L. -linverted -ldl [A]0;charles@charles-VirtualBox: ~/Desktop/comp362/CharlesPeltonLab08/inverted[01;32mcharles@charles-VirtualBox[00m:[01;34m~/Desktop/comp362/CharlesPeltonLab08/inverted[00m$ nm libinverted.so [K[A]0;charles@charles-VirtualBox: ~/Desktop/comp362/CharlesPeltonLab08/inverted[01;32mcharles@charles-VirtualBox[00m:[01;34m~/Desktop/comp362/CharlesPeltonLab08/inverted[00m$ [2Pexit
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cnm libiinverted.so [A]0;charles@charles-VirtualBox: ~/Desktop/comp362/CharlesPeltonLab08/inverted[01;32mcharles@charles-VirtualBox[00m:[01;34m~/Desktop/comp362/CharlesPeltonLab08/inverted[00m$ [2Pexit
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./inverrted[A]0;charles@charles-VirtualBox: ~/Desktop/comp362/CharlesPeltonLab08/inverted[01;32mcharles@charles-VirtualBox[00m:[01;34m~/Desktop/comp362/CharlesPeltonLab08/inverted[00m$ gcc tes[CInverted2.c -L. -linverted -o inverted[A]0;charles@charles-VirtualBox: ~/Desktop/comp362/CharlesPeltonLab08/inverted[01;32mcharles@charles-VirtualBox[00m:[01;34m~/Desktop/comp362/CharlesPeltonLab08/inverted[00m$ nm libinverted.a[K[A]0;charles@charles-VirtualBox: ~/Desktop/comp362/CharlesPeltonLab08/inverted[01;32mcharles@charles-VirtualBox[00m:[01;34m~/Desktop/comp362/CharlesPeltonLab08/inverted[00m$ gcc testInverted2.c -L. -linverted -o inverted[A]0;charles@charles-VirtualBox: ~/Desktop/comp362/CharlesPeltonLab08/inverted[01;32mcharles@charles-VirtualBox[00m:[01;34m~/Desktop/comp362/CharlesPeltonLab08/inverted[00m$ ./inver[Ced[K[A]0;charles@charles-VirtualBox: ~/Desktop/comp362/CharlesPeltonLab08/inverted[01;32mcharles@charles-VirtualBox[00m:[01;34m~/Desktop/comp362/CharlesPeltonLab08/inverted[00m$ [2Pexit
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cnm libiinverted.so [A]0;charles@charles-VirtualBox: ~/Desktop/comp362/CharlesPeltonLab08/inverted[01;32mcharles@charles-VirtualBox[00m:[01;34m~/Desktop/comp362/CharlesPeltonLab08/inverted[00m$ gcc -rd[60@ynamic -o invertedExplicit  testInvertedExplicit.c -L. -linverted -ldl[C[A]0;charles@charles-VirtualBox: ~/Desktop/comp362/CharlesPeltonLab08/inverted[01;32mcharles@charles-VirtualBox[00m:[01;34m~/Desktop/comp362/CharlesPeltonLab08/inverted[00m$ export LD_LIBRARY_PATH[K[A]0;charles@charles-VirtualBox: ~/Desktop/comp362/CharlesPeltonLab08/inverted[01;32mcharles@charles-VirtualBox[00m:[01;34m~/Desktop/comp362/CharlesPeltonLab08/inverted[00m$ ./inver[4PtedExplicit[A]0;charles@charles-VirtualBox: ~/Desktop/comp362/CharlesPeltonLab08/inverted[01;32mcharles@charles-VirtualBox[00m:[01;34m~/Desktop/comp362/CharlesPeltonLab08/inverted[00m$ [2Pexit
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgcc -rddynamic -o testInverted testInverted.c -L. -linverted[A]0;charles@charles-VirtualBox: ~/Desktop/comp362/CharlesPeltonLab08/inverted[01;32mcharles@charles-VirtualBox[00m:[01;34m~/Desktop/comp362/CharlesPeltonLab08/inverted[00m$ ./testInvertedex[K[A]0;charles@charles-VirtualBox: ~/Desktop/comp362/CharlesPeltonLab08/inverted[01;32mcharles@charles-VirtualBox[00m:[01;34m~/Desktop/comp362/CharlesPeltonLab08/inverted[00m$ [2Pexit
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[Kgcc -fPPIC -shared -nostartfiles -o libgiveMeNum.so giveMeNum.c [1P[1P[1P[1P[1P[1P[1P[1P[1P[1@i[1@n[1@v[1@e[1@r[1@t[1@e[1@d[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@i[1@n[1@v[1@e[1@r[1@t[1@e[1@d
+[01m[Kinverted.c:[m[K In function ‘[01m[Ktranslate[m[K’:
+[01m[Kinverted.c:31:2:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function ‘[01m[Ksleep[m[K’ [[01;35m[K-Wimplicit-function-declaration[m[K]
+  [01;35m[Ksleep[m[K(1);
+  [01;35m[K^~~~~[m[K
+]0;charles@charles-VirtualBox: ~/Desktop/comp362/CharlesPeltonLab08/inverted[01;32mcharles@charles-VirtualBox[00m:[01;34m~/Desktop/comp362/CharlesPeltonLab08/inverted[00m$ $ nm liibgiveMeNum.so [C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@i[1@n[1@v[1@e[1@r[1@t[1@e[1@d[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C nm lib[1P[A]0;charles@charles-VirtualBox: ~/Desktop/comp362/CharlesPeltonLab08/inverted[01;32mcharles@charles-VirtualBox[00m:[01;34m~/Desktop/comp362/CharlesPeltonLab08/inverted[00m$ 
+
+0000000000201048 B __bss_start
+                 U calloc@@GLIBC_2.2.5
+                 U difftime@@GLIBC_2.2.5
+0000000000200ed0 d _DYNAMIC
+0000000000201048 D _edata
+0000000000201050 B _end
+00000000000006a7 T findOldest
+0000000000201000 d _GLOBAL_OFFSET_TABLE_
+00000000000007ec r __GNU_EH_FRAME_HDR
+0000000000000500 T initInverted
+000000000000060a T lookUp
+0000000000201048 b pSize
+                 U sleep@@GLIBC_2.2.5
+000000000020104c b tableSize
+                 U time@@GLIBC_2.2.5
+0000000000000555 T translate
+]0;charles@charles-VirtualBox: ~/Desktop/comp362/CharlesPeltonLab08/inverted[01;32mcharles@charles-VirtualBox[00m:[01;34m~/Desktop/comp362/CharlesPeltonLab08/inverted[00m$ gcc -rddynamic -o testDyLibExplicitMain testDyLibExplicitMain.c -L. -lgiveMeNum -ldl [1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@I[1@n[1@v[1@e[1@r[1@t[1@e[1@d[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@E[1P[1@I[1@m[1@p[1@l[1@i[1@c[1@i[1@t[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@i[1@n[1@v[1@e[1@r[1@t[1@e[1@d
+]0;charles@charles-VirtualBox: ~/Desktop/comp362/CharlesPeltonLab08/inverted[01;32mcharles@charles-VirtualBox[00m:[01;34m~/Desktop/comp362/CharlesPeltonLab08/inverted[00m$ gcc -rddynamic -o testImplicit testInverted.c -L. -linverted -ldl [K[K[K[K[K[K
+]0;charles@charles-VirtualBox: ~/Desktop/comp362/CharlesPeltonLab08/inverted[01;32mcharles@charles-VirtualBox[00m:[01;34m~/Desktop/comp362/CharlesPeltonLab08/inverted[00m$ LD_LIBRRARY_PATH=$LD_LIBRARY_PATH:.
+]0;charles@charles-VirtualBox: ~/Desktop/comp362/CharlesPeltonLab08/inverted[01;32mcharles@charles-VirtualBox[00m:[01;34m~/Desktop/comp362/CharlesPeltonLab08/inverted[00m$ export  LD_LIBRARY_PATH
+]0;charles@charles-VirtualBox: ~/Desktop/comp362/CharlesPeltonLab08/inverted[01;32mcharles@charles-VirtualBox[00m:[01;34m~/Desktop/comp362/CharlesPeltonLab08/inverted[00m$ ./test Implicit
+translate(0, 1, 2644) = 2644
+translate(7, 23, 2098) = 6194
+translate(6, 13, 3995) = 12187
+translate(7, 20, 2251) = 14539
+translate(1, 19, 2322) = 18706
+translate(7, 6, 3110) = 23590
+translate(3, 24, 1367) = 25943
+translate(3, 23, 4017) = 32689
+translate(7, 19, 40) = 32808
+translate(5, 3, 3248) = 40112
+translate(7, 11, 1777) = 42737
+translate(4, 19, 2088) = 47144
+translate(6, 17, 374) = 49526
+translate(1, 16, 1578) = 54826
+translate(5, 18, 3197) = 60541
+translate(7, 17, 3011) = 64451
+translate(5, 4, 1532) = 67068
+translate(4, 24, 2579) = 72211
+translate(5, 7, 1926) = 75654
+translate(5, 20, 1161) = 78985
+translate(5, 3, 597) = 37461
+translate(7, 7, 1544) = 83464
+translate(7, 29, 1593) = 87609
+translate(5, 15, 3658) = 93770
+translate(7, 12, 1180) = 95388
+translate(5, 27, 3661) = 101965
+translate(0, 16, 3057) = 105457
+translate(4, 28, 2537) = 109033
+translate(7, 25, 912) = 111504
+translate(6, 30, 3972) = 118660
+translate(7, 20, 3048) = 15336
+translate(4, 27, 783) = 119567
+translate(4, 10, 3373) = 126253
+translate(6, 16, 2524) = 129500
+translate(0, 31, 488) = 131560
+translate(4, 12, 3683) = 138851
+translate(1, 29, 2931) = 142195
+translate(2, 9, 3695) = 147055
+translate(4, 9, 1800) = 149256
+translate(4, 15, 1382) = 152934
+translate(1, 30, 1594) = 157242
+translate(1, 3, 117) = 159861
+translate(0, 15, 3136) = 166976
+translate(5, 21, 2832) = 170768
+translate(1, 5, 783) = 172815
+translate(1, 17, 188) = 176316
+translate(4, 10, 4057) = 126937
+translate(7, 21, 1634) = 181858
+translate(6, 9, 3691) = 188011
+translate(6, 13, 3962) = 12154
+translate(5, 22, 3609) = 192025
+translate(7, 7, 3228) = 85148
+translate(5, 8, 267) = 192779
+translate(5, 21, 417) = 168353
+translate(5, 31, 3238) = 199846
+translate(4, 16, 1720) = 202424
+translate(0, 5, 3618) = 208418
+translate(1, 12, 3799) = 212695
+translate(4, 3, 704) = 213696
+translate(7, 1, 3438) = 220526
+translate(2, 6, 3684) = 224868
+translate(3, 6, 396) = 225676
+translate(7, 27, 2548) = 231924
+translate(2, 16, 1225) = 234697
+translate(3, 21, 3048) = 240616
+translate(2, 9, 313) = 143673
+translate(2, 26, 798) = 242462
+translate(4, 3, 3338) = 216330
+translate(4, 15, 3437) = 154989
+translate(4, 7, 2895) = 248655
+translate(2, 25, 3093) = 252949
+translate(7, 4, 1531) = 255483
+translate(3, 11, 2422) = 260470
+translate(7, 29, 710) = 86726
+translate(0, 17, 3323) = 3323
+translate(1, 11, 2853) = 6949
+translate(2, 29, 3583) = 19967
+translate(0, 17, 1378) = 1378
+translate(2, 29, 1970) = 18354
+translate(0, 10, 857) = 21337
+translate(7, 4, 2002) = 255954
+translate(4, 3, 822) = 213814
+translate(0, 14, 545) = 25121
+translate(6, 13, 1438) = 9630
+translate(5, 22, 3919) = 192335
+translate(0, 7, 3034) = 31706
+translate(5, 17, 503) = 33271
+translate(4, 25, 4041) = 45001
+translate(7, 11, 1062) = 46118
+translate(1, 11, 464) = 4560
+translate(2, 26, 1589) = 243253
+translate(4, 31, 4024) = 53176
+translate(2, 31, 4071) = 57319
+translate(3, 21, 180) = 237748
+translate(1, 18, 1770) = 59114
+translate(1, 11, 3697) = 7793
+translate(3, 8, 2178) = 63618
+translate(3, 5, 2107) = 67643
+translate(4, 4, 2727) = 72359
+translate(2, 21, 3378) = 77106
+translate(3, 31, 2861) = 80685
+translate(0, 27, 172) = 37036
+translate(0, 13, 939) = 91051
+translate(7, 0, 3488) = 97696
+translate(4, 17, 339) = 98643
+translate(6, 18, 3006) = 105406
+translate(0, 14, 2054) = 26630
+translate(2, 1, 1067) = 107563
+translate(6, 29, 1423) = 112015
+translate(5, 31, 996) = 197604
+translate(7, 18, 643) = 115331
+translate(4, 26, 2366) = 14654
+translate(0, 27, 2891) = 39755
+translate(3, 2, 2763) = 121547
+translate(4, 30, 3421) = 130397
+translate(7, 5, 591) = 131663
+translate(5, 29, 1405) = 136573
+translate(3, 23, 2270) = 141534
+translate(7, 13, 3131) = 150587
+translate(6, 10, 955) = 156603
+translate(3, 26, 301) = 160045
+translate(6, 22, 2760) = 166600
+translate(5, 31, 67) = 196675
+translate(0, 18, 389) = 172421
+translate(4, 6, 3908) = 180036
+translate(1, 13, 105) = 122985
+translate(0, 18, 870) = 172902
+translate(6, 30, 189) = 180413
+]0;charles@charles-VirtualBox: ~/Desktop/comp362/CharlesPeltonLab08/inverted[01;32mcharles@charles-VirtualBox[00m:[01;34m~/Desktop/comp362/CharlesPeltonLab08/inverted[00m$ exit
+exit
+
+Script done on 2018-10-22 15:17:00-0700

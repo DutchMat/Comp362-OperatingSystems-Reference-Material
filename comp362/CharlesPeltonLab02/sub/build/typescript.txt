@@ -1,0 +1,53 @@
+Script started on 2018-09-09 16:47:26-0700
+]0;charles@charles-VirtualBox: ~/Desktop/comp362/CharlesPeltonLab02/sub/build[01;32mcharles@charles-VirtualBox[00m:[01;34m~/Desktop/comp362/CharlesPeltonLab02/sub/build[00m$ sub - -abcd +[K-+wxyzefgh -i input.txt -o oupu[K[Ktup[K[Ko[Kput.txt
+]0;charles@charles-VirtualBox: ~/Desktop/comp362/CharlesPeltonLab02/sub/build[01;32mcharles@charles-VirtualBox[00m:[01;34m~/Desktop/comp362/CharlesPeltonLab02/sub/build[00m$ sub <  input.txt --wxyz -+efghabcd
+The path of the righteous man is beset on all sides bg the inequities of the selfish and the tgranng of evil men. Blessed is he eho, in the name of charitg and good eill, shepherds the eeak through the valleg of the darkness, for he is trulg his brother’s keeper and the finder of lost children. And I eill strike doen upon thee eith great vengeance and furious anger those eho attempt to poison and destrog Mg brothers. And gou eill knoe I am the Lord ehen I lag Mg vengeance upon gou. Yea, though I ealk through the valleg of the shadoe of death, I eill fear no evil.
+]0;charles@charles-VirtualBox: ~/Desktop/comp362/CharlesPeltonLab02/sub/build[01;32mcharles@charles-VirtualBox[00m:[01;34m~/Desktop/comp362/CharlesPeltonLab02/sub/build[00m$ sub + -[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C- +bb --aa[Ko
+Hello, my friend.                   bbbbb aaa ooo bao oab
+bbbbb bbb bbb bbb bbb
+berry is a bot y, oooop]]     ps
+berry is b bby, bbps
+]0;charles@charles-VirtualBox: ~/Desktop/comp362/CharlesPeltonLab02/sub/build[01;32mcharles@charles-VirtualBox[00m:[01;34m~/Desktop/comp362/CharlesPeltonLab02/sub/build[00m$ sub - -wxyz[K[K[K[Kabcd -c[Kz[K+z [K[K[K[K>[K<[K[K[K[K[K[Kefgh > output2.txt -+ xy[K[Kabcd[1Pabcd
+Yea, though I ealk through the valleg of the shadoe of death, I eill fear no evil.
+
+]0;charles@charles-VirtualBox: ~/Desktop/comp362/CharlesPeltonLab02/sub/build[01;32mcharles@charles-VirtualBox[00m:[01;34m~/Desktop/comp362/CharlesPeltonLab02/sub/build[00m$ sub [K
+Not enough arguments; type sub -h for more help]0;charles@charles-VirtualBox: ~/Desktop/comp362/CharlesPeltonLab02/sub/build[01;32mcharles@charles-VirtualBox[00m:[01;34m~/Desktop/comp362/CharlesPeltonLab02/sub/build[00m$ sub - -[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[Ksub [K + -[K-ab
+Invalid operation; type sub -h for more help]0;charles@charles-VirtualBox: ~/Desktop/comp362/CharlesPeltonLab02/sub/build[01;32mcharles@charles-VirtualBox[00m:[01;34m~/Desktop/comp362/CharlesPeltonLab02/sub/build[00m$ sub - i inpu[K[K[K[Koutput2.txt --a -+b
+Ybb, tdoucd I bblk tdroucd tdb vbllbc ob tdb sdbdob ob dbbtd, I bill bbbr no bvil.
+
+]0;charles@charles-VirtualBox: ~/Desktop/comp362/CharlesPeltonLab02/sub/build[01;32mcharles@charles-VirtualBox[00m:[01;34m~/Desktop/comp362/CharlesPeltonLab02/sub/build[00m$ sub 0 g[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C- h
+USAGE:
+
+sub [ -h | --fromChars -+toChars [-i inputFile] [-o outputFile] ]
+DESCRIPTION:
+This utility copies text from an input stream to an output stream replacing every
+instance of a specific character in fromChars with a corresponding (position-wise)
+character from toChars. Any characters in fromChars and in toChars that do not
+have corresponding counterparts in the other one are ignored. If an input file is
+provided, the content is read from that file; otherwise, the standard input is used.
+If an output file is provided, then the modified content is written to that file;
+otherwise, thestandard output is used.
+
+OPTIONS:
+
+--(followed by a string without separating space)
+indicates all characters that will be replaced in the processed text
+
+-+(followed by a string without separating space)
+indicates the characters that will be used to replace corresponding
+(position-wise) characters from fromChars in the processed text
+
+-i (followed by input file name)
+use the provided file as an input stream instead of standard input
+
+-o (followed by output file name)
+use the provided file as an output stream instead of standard output
+
+-h prints this help message
+]0;charles@charles-VirtualBox: ~/Desktop/comp362/CharlesPeltonLab02/sub/build[01;32mcharles@charles-VirtualBox[00m:[01;34m~/Desktop/comp362/CharlesPeltonLab02/sub/build[00m$ exit
+exit
+
+Script done on 2018-09-09 16:55:45-0700

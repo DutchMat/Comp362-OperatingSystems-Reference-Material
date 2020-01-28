@@ -1,0 +1,161 @@
+Script started on 2018-10-22 14:34:01-0700
+]0;charles@charles-VirtualBox: ~/Desktop/comp362/CharlesPeltonLab08/inverted[01;32mcharles@charles-VirtualBox[00m:[01;34m~/Desktop/comp362/CharlesPeltonLab08/inverted[00m$  gcc -ffPIC -shared -nostartfiles -o libgiveMeNum.so giveMeNum.c [1P[1P[1P[1P[1P[1P[1P[1P[1P[1@i[1@n[1@v[1@e[1@r[1@t[1@e[1@d[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@i[1@n[1@v[1@e[1@r[1@t[1@e[1@d
+[01m[Kinverted.c:[m[K In function ‘[01m[Ktranslate[m[K’:
+[01m[Kinverted.c:31:2:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function ‘[01m[Ksleep[m[K’ [[01;35m[K-Wimplicit-function-declaration[m[K]
+  [01;35m[Ksleep[m[K(1);
+  [01;35m[K^~~~~[m[K
+]0;charles@charles-VirtualBox: ~/Desktop/comp362/CharlesPeltonLab08/inverted[01;32mcharles@charles-VirtualBox[00m:[01;34m~/Desktop/comp362/CharlesPeltonLab08/inverted[00m$ nm libggiveMeNum.so [1P[1P[1P[1P[1P[1P[1P[1P[1P[1@i[1@n[1@v[1@e[1@r[1@t[1@e[1@d
+0000000000201048 B __bss_start
+                 U calloc@@GLIBC_2.2.5
+                 U difftime@@GLIBC_2.2.5
+0000000000200ed0 d _DYNAMIC
+0000000000201048 D _edata
+0000000000201050 B _end
+00000000000006a7 T findOldest
+0000000000201000 d _GLOBAL_OFFSET_TABLE_
+00000000000007ec r __GNU_EH_FRAME_HDR
+0000000000000500 T initInverted
+000000000000060a T lookUp
+0000000000201048 b pSize
+                 U sleep@@GLIBC_2.2.5
+000000000020104c b tableSize
+                 U time@@GLIBC_2.2.5
+0000000000000555 T translate
+]0;charles@charles-VirtualBox: ~/Desktop/comp362/CharlesPeltonLab08/inverted[01;32mcharles@charles-VirtualBox[00m:[01;34m~/Desktop/comp362/CharlesPeltonLab08/inverted[00m$ gcc -rddynamic -o testDyLibExplicitMain testDyLibExplicitMain.c -L. -lgiveMeNum -ldl [1P[1P[1P[1P[1P[1P[1P[1P[1P[1@i[1@n[1@v[1@e[1@r[1@t[1@e[1@d[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@i[1@n[1@v[1@r[1@t[1@e[1@d[1P[1P[1P[1P[1@e[1@r[1@t[1@e[1@d[1@E[1@x[1@p[1@l[1@i[1@c[1@i[1@t[C[1@ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@I[1@n[1@v[1@e[1@r[1@t[1@e[1@d[1@E[1@x[1@p[1@l[1@i[1@c[1@i[1@t
+]0;charles@charles-VirtualBox: ~/Desktop/comp362/CharlesPeltonLab08/inverted[01;32mcharles@charles-VirtualBox[00m:[01;34m~/Desktop/comp362/CharlesPeltonLab08/inverted[00m$ gcc -rddynamic -o invertedExplicit  testInvertedExplicit.c -L. -linverted -ldl [A]0;charles@charles-VirtualBox: ~/Desktop/comp362/CharlesPeltonLab08/inverted[01;32mcharles@charles-VirtualBox[00m:[01;34m~/Desktop/comp362/CharlesPeltonLab08/inverted[00m$ nm libinverted.so [K[A]0;charles@charles-VirtualBox: ~/Desktop/comp362/CharlesPeltonLab08/inverted[01;32mcharles@charles-VirtualBox[00m:[01;34m~/Desktop/comp362/CharlesPeltonLab08/inverted[00m$ [2Pexit
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cnm libiinverted.so [C[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K LD_LIBBRARY_PATH=$LD_LIBRARY_PATH:.
+]0;charles@charles-VirtualBox: ~/Desktop/comp362/CharlesPeltonLab08/inverted[01;32mcharles@charles-VirtualBox[00m:[01;34m~/Desktop/comp362/CharlesPeltonLab08/inverted[00m$ export  LD_LIBRARY_PATH
+]0;charles@charles-VirtualBox: ~/Desktop/comp362/CharlesPeltonLab08/inverted[01;32mcharles@charles-VirtualBox[00m:[01;34m~/Desktop/comp362/CharlesPeltonLab08/inverted[00m$ ./inve rtedExplicit
+translate(2, 7, 3644) = 3644
+translate(1, 8, 2069) = 6165
+translate(5, 3, 241) = 8433
+translate(7, 21, 2118) = 14406
+translate(0, 14, 2813) = 19197
+translate(4, 25, 3424) = 23904
+translate(5, 13, 2868) = 27444
+translate(1, 10, 2754) = 31426
+translate(5, 21, 323) = 33091
+translate(6, 11, 1727) = 38591
+translate(1, 5, 2054) = 43014
+translate(6, 14, 3150) = 48206
+translate(3, 12, 2578) = 51730
+translate(4, 27, 2343) = 55591
+translate(2, 3, 2421) = 59765
+translate(7, 15, 2542) = 63982
+translate(0, 28, 60) = 65596
+translate(4, 5, 166) = 69798
+translate(6, 26, 2491) = 76219
+translate(2, 8, 3686) = 81510
+translate(1, 26, 2732) = 84652
+translate(7, 8, 378) = 86394
+translate(6, 11, 3654) = 40518
+translate(0, 31, 513) = 90625
+translate(7, 25, 2020) = 96228
+translate(4, 17, 1907) = 100211
+translate(3, 9, 2863) = 105263
+translate(7, 21, 3220) = 15508
+translate(5, 3, 1486) = 9678
+translate(0, 21, 2455) = 108951
+translate(7, 6, 401) = 110993
+translate(3, 30, 3065) = 117753
+translate(5, 4, 228) = 119012
+translate(4, 28, 323) = 123203
+translate(5, 27, 1372) = 128348
+translate(2, 15, 2093) = 133165
+translate(5, 18, 1814) = 136982
+translate(5, 17, 3403) = 142667
+translate(1, 22, 1423) = 144783
+translate(0, 23, 292) = 147748
+translate(7, 30, 1739) = 153291
+translate(0, 17, 3721) = 159369
+translate(1, 30, 1197) = 160941
+translate(5, 18, 841) = 136009
+translate(0, 8, 900) = 164740
+translate(4, 2, 3795) = 171731
+translate(2, 15, 3878) = 134950
+translate(0, 12, 1207) = 173239
+translate(4, 30, 46) = 176174
+translate(3, 30, 2885) = 117573
+translate(7, 21, 1123) = 13411
+translate(2, 29, 1588) = 181812
+translate(3, 30, 562) = 115250
+translate(0, 3, 1701) = 186021
+translate(1, 11, 1421) = 189837
+translate(5, 15, 1743) = 194255
+translate(1, 1, 478) = 197086
+translate(7, 10, 491) = 201195
+translate(6, 30, 905) = 205705
+translate(4, 1, 3207) = 212103
+translate(1, 8, 1660) = 5756
+translate(4, 27, 761) = 54009
+translate(0, 22, 3575) = 216567
+translate(3, 31, 2138) = 219226
+translate(0, 16, 869) = 222053
+translate(5, 6, 1140) = 226420
+translate(4, 15, 950) = 230326
+translate(2, 30, 2112) = 235584
+translate(5, 4, 3934) = 122718
+translate(6, 25, 3743) = 241311
+translate(5, 18, 1831) = 136999
+translate(1, 15, 4034) = 245698
+translate(2, 31, 1785) = 247545
+translate(1, 2, 376) = 250232
+translate(3, 10, 648) = 254600
+translate(0, 31, 3502) = 93614
+translate(5, 3, 445) = 8637
+translate(3, 6, 3547) = 261595
+translate(3, 19, 1728) = 1728
+translate(1, 10, 3225) = 31897
+translate(0, 7, 2731) = 19115
+translate(7, 1, 1370) = 21850
+translate(2, 19, 730) = 25306
+translate(3, 29, 1372) = 34140
+translate(3, 0, 903) = 41863
+translate(3, 9, 742) = 103142
+translate(2, 6, 2634) = 47690
+translate(7, 25, 2960) = 97168
+translate(3, 12, 2211) = 51363
+translate(3, 29, 1293) = 34061
+translate(4, 13, 3413) = 60757
+translate(7, 4, 2038) = 63478
+translate(2, 30, 2025) = 235497
+translate(4, 17, 2854) = 101158
+translate(0, 28, 2567) = 68103
+translate(7, 16, 2032) = 71664
+translate(6, 18, 2390) = 76118
+translate(0, 17, 495) = 156143
+translate(0, 12, 2555) = 174587
+translate(3, 7, 216) = 78040
+translate(1, 27, 1317) = 83237
+translate(6, 27, 3593) = 89609
+translate(4, 21, 2888) = 39752
+translate(5, 9, 985) = 107481
+translate(4, 25, 2358) = 112950
+translate(3, 17, 3558) = 126438
+translate(3, 15, 3992) = 130968
+translate(1, 23, 9) = 139273
+translate(0, 15, 3350) = 146710
+translate(3, 10, 3453) = 257405
+translate(3, 19, 3545) = 3545
+translate(0, 17, 2260) = 157908
+translate(1, 5, 969) = 148425
+translate(1, 3, 402) = 151954
+translate(3, 7, 1931) = 79755
+translate(1, 18, 2364) = 162108
+translate(7, 13, 2443) = 166283
+translate(7, 30, 706) = 168642
+translate(0, 30, 113) = 131185
+translate(6, 25, 2876) = 240444
+translate(4, 12, 2095) = 178223
+translate(5, 4, 1185) = 119969
+translate(1, 5, 2182) = 149638
+translate(2, 15, 3017) = 15305
+translate(4, 18, 2448) = 182672
+translate(7, 11, 3042) = 117730
+translate(4, 10, 2735) = 187055
+translate(7, 1, 3917) = 24397
+]0;charles@charles-VirtualBox: ~/Desktop/comp362/CharlesPeltonLab08/inverted[01;32mcharles@charles-VirtualBox[00m:[01;34m~/Desktop/comp362/CharlesPeltonLab08/inverted[00m$ exit
+exit
+
+Script done on 2018-10-22 14:41:17-0700

@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/charles/Desktop/comp362/CharlesPeltonLab07/deadlockDetector/build",
+  "command": "/usr/bin/cc    -D_FILE_OFFSET_BITS=64   -std=gnu11 -o CMakeFiles/deadlock.dir/deadlock.c.o   -c /home/charles/Desktop/comp362/CharlesPeltonLab07/deadlockDetector/deadlock.c",
+  "file": "/home/charles/Desktop/comp362/CharlesPeltonLab07/deadlockDetector/deadlock.c"
+}
+]

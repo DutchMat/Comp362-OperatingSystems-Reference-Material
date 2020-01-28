@@ -1,0 +1,162 @@
+Script started on 2018-10-22 12:10:04-0700
+cdc..ciinverted.cd-o-inverted.o-odinvertedrtedharlesPeltonLab08/inverted/build$
+charles@charles-VirtualBox:~/Desktop/comp362/CharlesPeltonLab08/inverted$ gccr-ciinverted.cd-o inverted.o
+inverted.c: In function ‘translate’:
+inverted.c:31:2: warning: implicit declaration of function ‘sleep’ [-Wimplicit-function-declaration]
+  sleep(1);
+  ^~~~~
+charles@charles-VirtualBox:~/Desktop/comp362/CharlesPeltonLab08/inverted$ cdc..c
+charles@charles-VirtualBox:~/Desktop/comp362/CharlesPeltonLab08/inverted$ ar rcsilibinverted.a inverted.o
+charles@charles-VirtualBox:~/Desktop/comp362/CharlesPeltonLab08/inverted$ cdc..c inverted.c -o
+charles@charles-VirtualBox:~/Desktop/comp362/CharlesPeltonLab08/inverted$ nm libinverted.a
+
+inverted.o:
+		 U calloc
+		 U difftime
+00000000000001a7 T findOldest
+		 U _GLOBAL_OFFSET_TABLE_
+0000000000000000 T initInverted
+000000000000010a T lookUp
+0000000000000000 b pSize
+		 U sleep
+0000000000000004 b tableSize
+		 U time
+0000000000000055 T translate
+charles@charles-VirtualBox:~/Desktop/comp362/CharlesPeltonLab08/inverted$ cdc..ciinverted.cd-o inverted.o
+stInverted2.c -L. -linverted -o inverted
+charles@charles-VirtualBox:~/Desktop/comp362/CharlesPeltonLab08/inverted$ cdc..ciinverted.cd-o inverted.o
+charles@charles-VirtualBox:~/Desktop/comp362/CharlesPeltonLab08/inverted$ cdc..ciinverted.cd-o-inverted.o-o inverted
+charles@charles-VirtualBox:~/Desktop/comp362/CharlesPeltonLab08/inverted$ exit
+charles@charles-VirtualBox:~/Desktop/comp362/CharlesPeltonLab08/inverted$ ./inveredverted2.c -L. -linverted -o inverted
+translate(4, 23, 1183) = 1183
+translate(2, 13, 3207) = 7303
+translate(6, 11, 3777) = 11969
+translate(3, 5, 2348) = 14636
+translate(1, 27, 1320) = 17704
+translate(4, 17, 1985) = 22465
+translate(3, 28, 1955) = 26531
+translate(2, 30, 2390) = 31062
+translate(2, 13, 407) = 4503
+translate(0, 1, 3056) = 35824
+translate(1, 22, 3911) = 40775
+translate(0, 0, 4053) = 45013
+translate(0, 30, 416) = 45472
+translate(1, 1, 2757) = 51909
+translate(6, 19, 3425) = 56673
+translate(6, 31, 1938) = 59282
+translate(7, 18, 3982) = 65422
+translate(2, 20, 3084) = 68620
+translate(0, 6, 2233) = 71865
+translate(0, 15, 3675) = 77403
+translate(0, 0, 3889) = 44849
+translate(7, 16, 2641) = 80465
+translate(4, 8, 3183) = 85103
+translate(5, 2, 977) = 86993
+translate(2, 8, 196) = 90308
+translate(3, 22, 899) = 95107
+translate(6, 5, 758) = 99062
+translate(4, 23, 3402) = 3402
+translate(1, 31, 1873) = 104273
+translate(2, 31, 2944) = 109440
+translate(5, 15, 1952) = 112544
+translate(6, 7, 80) = 114768
+translate(7, 19, 537) = 119321
+translate(7, 0, 3003) = 125883
+translate(0, 19, 1635) = 128611
+translate(4, 6, 1849) = 132921
+translate(7, 12, 1534) = 136702
+translate(5, 1, 2645) = 141909
+translate(0, 2, 3476) = 146836
+translate(1, 28, 340) = 147796
+translate(1, 18, 387) = 151939
+translate(1, 24, 3434) = 159082
+translate(1, 16, 1246) = 160990
+translate(2, 23, 2430) = 166270
+translate(5, 15, 1553) = 112145
+translate(0, 11, 2040) = 169976
+translate(1, 10, 1732) = 173764
+translate(7, 0, 517) = 123397
+translate(4, 0, 1479) = 177607
+translate(1, 17, 2756) = 182980
+translate(5, 2, 3926) = 89942
+translate(0, 19, 686) = 127662
+translate(3, 20, 3870) = 188190
+translate(1, 15, 277) = 188693
+translate(7, 4, 3172) = 195684
+translate(1, 29, 463) = 197071
+translate(1, 14, 1242) = 201946
+translate(5, 30, 2170) = 206970
+translate(3, 2, 2554) = 211450
+translate(2, 27, 171) = 213163
+translate(6, 8, 2061) = 219149
+translate(4, 25, 1984) = 223168
+translate(3, 20, 20) = 184340
+translate(1, 13, 803) = 226083
+translate(7, 4, 3240) = 195752
+translate(3, 13, 773) = 230149
+translate(3, 14, 3443) = 236915
+translate(5, 20, 497) = 238065
+translate(7, 31, 2772) = 244436
+translate(1, 17, 1455) = 181679
+translate(4, 8, 984) = 82904
+translate(1, 20, 1745) = 247505
+translate(1, 15, 3077) = 191493
+translate(5, 9, 2130) = 251986
+translate(1, 24, 1334) = 156982
+translate(1, 11, 2244) = 256196
+translate(6, 14, 2802) = 260850
+translate(1, 11, 646) = 254598
+translate(3, 2, 389) = 209285
+translate(7, 19, 3511) = 122295
+translate(6, 15, 479) = 8671
+translate(6, 24, 3411) = 15699
+translate(7, 1, 707) = 17091
+translate(4, 31, 332) = 20812
+translate(6, 0, 2564) = 27140
+translate(5, 9, 2383) = 252239
+translate(1, 23, 254) = 28926
+translate(3, 24, 1513) = 5609
+translate(2, 11, 140) = 32908
+translate(7, 18, 2783) = 64223
+translate(6, 9, 1423) = 38287
+translate(5, 23, 2215) = 47271
+translate(1, 23, 3049) = 31721
+translate(4, 27, 3944) = 53096
+translate(0, 18, 1608) = 54856
+translate(4, 31, 3377) = 23857
+translate(3, 16, 1832) = 59176
+translate(1, 19, 416) = 65952
+translate(3, 29, 3724) = 73356
+translate(7, 13, 2238) = 75966
+translate(6, 19, 1511) = 42471
+translate(5, 25, 2527) = 80351
+translate(5, 18, 2934) = 93046
+translate(6, 14, 1713) = 259761
+translate(6, 22, 995) = 95203
+translate(6, 2, 2114) = 100418
+translate(7, 29, 3218) = 3218
+translate(7, 23, 3014) = 105414
+translate(7, 26, 2147) = 108643
+translate(3, 9, 1008) = 115696
+translate(2, 23, 3108) = 166948
+translate(1, 21, 733) = 131805
+translate(0, 26, 1391) = 136559
+translate(6, 8, 1693) = 218781
+translate(0, 30, 1971) = 141235
+translate(3, 28, 693) = 144053
+translate(6, 11, 242) = 147698
+translate(0, 2, 873) = 152425
+translate(6, 25, 3) = 159747
+translate(2, 29, 1868) = 112460
+translate(2, 31, 1060) = 168996
+translate(6, 8, 3097) = 220185
+translate(3, 17, 2003) = 174035
+translate(2, 15, 827) = 123707
+translate(7, 31, 3513) = 245177
+translate(2, 19, 3477) = 179605
+translate(7, 9, 0) = 86016
+translate(2, 17, 3106) = 130082
+charles@charles-VirtualBox:~/Desktop/comp362/CharlesPeltonLab08/inverted$ exit
+exit
+
+Script done on 2018-10-22 12:15:05-0700

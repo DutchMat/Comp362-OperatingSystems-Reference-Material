@@ -1,0 +1,110 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/aj/Dropbox (CSUCI)/Teaching/Fall2018/COMP362-F18/labs/lab04/matrixMult/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f5c3d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f5c3d.dir/build.make CMakeFiles/cmTC_f5c3d.dir/build
+make[1]: Entering directory '/home/aj/Dropbox (CSUCI)/Teaching/Fall2018/COMP362-F18/labs/lab04/matrixMult/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f5c3d.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -D_FILE_OFFSET_BITS=64    -std=gnu11 -o CMakeFiles/cmTC_f5c3d.dir/CheckSymbolExists.c.o   -c "/home/aj/Dropbox (CSUCI)/Teaching/Fall2018/COMP362-F18/labs/lab04/matrixMult/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTC_f5c3d
+/home/aj/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4323.58/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f5c3d.dir/link.txt --verbose=1
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64     CMakeFiles/cmTC_f5c3d.dir/CheckSymbolExists.c.o  -o cmTC_f5c3d 
+CMakeFiles/cmTC_f5c3d.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_f5c3d.dir/build.make:86: recipe for target 'cmTC_f5c3d' failed
+make[1]: *** [cmTC_f5c3d] Error 1
+make[1]: Leaving directory '/home/aj/Dropbox (CSUCI)/Teaching/Fall2018/COMP362-F18/labs/lab04/matrixMult/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_f5c3d/fast' failed
+make: *** [cmTC_f5c3d/fast] Error 2
+
+File /home/aj/Dropbox (CSUCI)/Teaching/Fall2018/COMP362-F18/labs/lab04/matrixMult/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/aj/Dropbox (CSUCI)/Teaching/Fall2018/COMP362-F18/labs/lab04/matrixMult/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_120d2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_120d2.dir/build.make CMakeFiles/cmTC_120d2.dir/build
+make[1]: Entering directory '/home/aj/Dropbox (CSUCI)/Teaching/Fall2018/COMP362-F18/labs/lab04/matrixMult/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_120d2.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -D_FILE_OFFSET_BITS=64 -DCHECK_FUNCTION_EXISTS=pthread_create   -std=gnu11 -o CMakeFiles/cmTC_120d2.dir/CheckFunctionExists.c.o   -c /home/aj/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4323.58/bin/cmake/linux/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_120d2
+/home/aj/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4323.58/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_120d2.dir/link.txt --verbose=1
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_120d2.dir/CheckFunctionExists.c.o  -o cmTC_120d2 -lpthreads 
+/usr/bin/x86_64-linux-gnu-ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_120d2.dir/build.make:86: recipe for target 'cmTC_120d2' failed
+make[1]: *** [cmTC_120d2] Error 1
+make[1]: Leaving directory '/home/aj/Dropbox (CSUCI)/Teaching/Fall2018/COMP362-F18/labs/lab04/matrixMult/build/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_120d2/fast' failed
+make: *** [cmTC_120d2/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/charles/Desktop/comp362/CharlesPeltonLab04/matrixMult/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_63d92/fast"
+/usr/bin/make -f CMakeFiles/cmTC_63d92.dir/build.make CMakeFiles/cmTC_63d92.dir/build
+make[1]: Entering directory '/home/charles/Desktop/comp362/CharlesPeltonLab04/matrixMult/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_63d92.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -D_FILE_OFFSET_BITS=64    -std=gnu11 -o CMakeFiles/cmTC_63d92.dir/CheckSymbolExists.c.o   -c /home/charles/Desktop/comp362/CharlesPeltonLab04/matrixMult/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_63d92
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63d92.dir/link.txt --verbose=1
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64     CMakeFiles/cmTC_63d92.dir/CheckSymbolExists.c.o  -o cmTC_63d92 
+CMakeFiles/cmTC_63d92.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_63d92.dir/build.make:97: recipe for target 'cmTC_63d92' failed
+make[1]: *** [cmTC_63d92] Error 1
+make[1]: Leaving directory '/home/charles/Desktop/comp362/CharlesPeltonLab04/matrixMult/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_63d92/fast' failed
+make: *** [cmTC_63d92/fast] Error 2
+
+File /home/charles/Desktop/comp362/CharlesPeltonLab04/matrixMult/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/charles/Desktop/comp362/CharlesPeltonLab04/matrixMult/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e838b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e838b.dir/build.make CMakeFiles/cmTC_e838b.dir/build
+make[1]: Entering directory '/home/charles/Desktop/comp362/CharlesPeltonLab04/matrixMult/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e838b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -D_FILE_OFFSET_BITS=64 -DCHECK_FUNCTION_EXISTS=pthread_create   -std=gnu11 -o CMakeFiles/cmTC_e838b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e838b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e838b.dir/link.txt --verbose=1
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_e838b.dir/CheckFunctionExists.c.o  -o cmTC_e838b -lpthreads 
+/usr/bin/x86_64-linux-gnu-ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_e838b.dir/build.make:97: recipe for target 'cmTC_e838b' failed
+make[1]: *** [cmTC_e838b] Error 1
+make[1]: Leaving directory '/home/charles/Desktop/comp362/CharlesPeltonLab04/matrixMult/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_e838b/fast' failed
+make: *** [cmTC_e838b/fast] Error 2
+
+

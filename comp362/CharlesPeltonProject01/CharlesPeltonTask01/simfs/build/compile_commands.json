@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/charles/Desktop/comp362/CharlesPeltonProject01/CharlesPeltonTask01/simfs/build",
+  "command": "/usr/bin/cc  -I/usr/include/fuse   -D_FILE_OFFSET_BITS=64   -std=gnu11 -o CMakeFiles/simfs.dir/test_simfs.c.o   -c /home/charles/Desktop/comp362/CharlesPeltonProject01/CharlesPeltonTask01/simfs/test_simfs.c",
+  "file": "/home/charles/Desktop/comp362/CharlesPeltonProject01/CharlesPeltonTask01/simfs/test_simfs.c"
+},
+{
+  "directory": "/home/charles/Desktop/comp362/CharlesPeltonProject01/CharlesPeltonTask01/simfs/build",
+  "command": "/usr/bin/cc  -I/usr/include/fuse   -D_FILE_OFFSET_BITS=64   -std=gnu11 -o CMakeFiles/simfs.dir/simfs.c.o   -c /home/charles/Desktop/comp362/CharlesPeltonProject01/CharlesPeltonTask01/simfs/simfs.c",
+  "file": "/home/charles/Desktop/comp362/CharlesPeltonProject01/CharlesPeltonTask01/simfs/simfs.c"
+}
+]

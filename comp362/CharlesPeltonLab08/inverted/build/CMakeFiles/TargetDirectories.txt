@@ -1,0 +1,3 @@
+/home/charles/Desktop/comp362/CharlesPeltonLab08/inverted/build/CMakeFiles/rebuild_cache.dir
+/home/charles/Desktop/comp362/CharlesPeltonLab08/inverted/build/CMakeFiles/inverted.dir
+/home/charles/Desktop/comp362/CharlesPeltonLab08/inverted/build/CMakeFiles/edit_cache.dir

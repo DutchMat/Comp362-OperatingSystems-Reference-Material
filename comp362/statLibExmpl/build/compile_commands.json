@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/media/psf/Dropbox for Business/Teaching/Fall2018/COMP362-F18/labs/lab08/statLibExmpl/build",
+  "command": "/usr/bin/cc    -D_FILE_OFFSET_BITS=64   -std=gnu11 -o CMakeFiles/giveMeNum.dir/giveMeNum.c.o   -c \"/media/psf/Dropbox for Business/Teaching/Fall2018/COMP362-F18/labs/lab08/statLibExmpl/giveMeNum.c\"",
+  "file": "/media/psf/Dropbox for Business/Teaching/Fall2018/COMP362-F18/labs/lab08/statLibExmpl/giveMeNum.c"
+},
+{
+  "directory": "/media/psf/Dropbox for Business/Teaching/Fall2018/COMP362-F18/labs/lab08/statLibExmpl/build",
+  "command": "/usr/bin/cc    -D_FILE_OFFSET_BITS=64   -std=gnu11 -o CMakeFiles/testStatLib.dir/testStatLibMain.c.o   -c \"/media/psf/Dropbox for Business/Teaching/Fall2018/COMP362-F18/labs/lab08/statLibExmpl/testStatLibMain.c\"",
+  "file": "/media/psf/Dropbox for Business/Teaching/Fall2018/COMP362-F18/labs/lab08/statLibExmpl/testStatLibMain.c"
+}
+]

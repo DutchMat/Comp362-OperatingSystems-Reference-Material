@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/media/psf/Dropbox for Business/Teaching/Fall2018/COMP362-F18/labs/lab08/statLibExmpl/testStatLibMain.c
+stdio.h
+-
+

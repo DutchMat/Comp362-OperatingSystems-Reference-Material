@@ -1,0 +1,3 @@
+/home/charles/Desktop/comp362/CharlesPeltonLab06/philoBase/build/CMakeFiles/rebuild_cache.dir
+/home/charles/Desktop/comp362/CharlesPeltonLab06/philoBase/build/CMakeFiles/philosophers.dir
+/home/charles/Desktop/comp362/CharlesPeltonLab06/philoBase/build/CMakeFiles/edit_cache.dir

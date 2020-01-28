@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/charles/Desktop/comp362/CharlesPeltonLab05/cpuScheduler/cpuScheduler.c
+cpuScheduler.h
+/home/charles/Desktop/comp362/CharlesPeltonLab05/cpuScheduler/cpuScheduler.h
+
+/home/charles/Desktop/comp362/CharlesPeltonLab05/cpuScheduler/cpuScheduler.h
+sys/types.h
+-
+processQueue.h
+/home/charles/Desktop/comp362/CharlesPeltonLab05/cpuScheduler/processQueue.h
+
+/home/charles/Desktop/comp362/CharlesPeltonLab05/cpuScheduler/processQueue.c
+processQueue.h
+/home/charles/Desktop/comp362/CharlesPeltonLab05/cpuScheduler/processQueue.h
+
+/home/charles/Desktop/comp362/CharlesPeltonLab05/cpuScheduler/processQueue.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+stdbool.h
+-
+limits.h
+-
+

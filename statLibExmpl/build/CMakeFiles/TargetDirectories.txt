@@ -1,0 +1,4 @@
+/media/psf/Dropbox for Business/Teaching/Fall2018/COMP362-F18/labs/lab08/statLibExmpl/build/CMakeFiles/rebuild_cache.dir
+/media/psf/Dropbox for Business/Teaching/Fall2018/COMP362-F18/labs/lab08/statLibExmpl/build/CMakeFiles/giveMeNum.dir
+/media/psf/Dropbox for Business/Teaching/Fall2018/COMP362-F18/labs/lab08/statLibExmpl/build/CMakeFiles/edit_cache.dir
+/media/psf/Dropbox for Business/Teaching/Fall2018/COMP362-F18/labs/lab08/statLibExmpl/build/CMakeFiles/testStatLib.dir

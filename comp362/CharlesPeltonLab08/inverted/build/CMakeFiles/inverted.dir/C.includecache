@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/charles/Desktop/comp362/CharlesPeltonLab08/inverted/inverted.c
+inverted.h
+/home/charles/Desktop/comp362/CharlesPeltonLab08/inverted/inverted.h
+
+/home/charles/Desktop/comp362/CharlesPeltonLab08/inverted/inverted.h
+stdio.h
+-
+stdlib.h
+-
+time.h
+-
+
+/home/charles/Desktop/comp362/CharlesPeltonLab08/inverted/testInverted.c
+inverted.h
+/home/charles/Desktop/comp362/CharlesPeltonLab08/inverted/inverted.h
+

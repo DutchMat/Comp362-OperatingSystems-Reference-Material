@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/charles/Desktop/comp362/CharlesPeltonLab02/sub/sub.c
+sub.h
+/home/charles/Desktop/comp362/CharlesPeltonLab02/sub/sub.h
+
+/home/charles/Desktop/comp362/CharlesPeltonLab02/sub/sub.h
+stdlib.h
+-
+stddef.h
+-
+stdio.h
+-
+string.h
+-
+

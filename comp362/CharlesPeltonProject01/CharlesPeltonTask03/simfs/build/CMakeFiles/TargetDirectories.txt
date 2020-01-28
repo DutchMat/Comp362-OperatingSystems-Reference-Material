@@ -1,0 +1,3 @@
+/home/charles/Desktop/comp362/CharlesPeltonProject01/CharlesPeltonTask03/simfs/build/CMakeFiles/rebuild_cache.dir
+/home/charles/Desktop/comp362/CharlesPeltonProject01/CharlesPeltonTask03/simfs/build/CMakeFiles/simfs.dir
+/home/charles/Desktop/comp362/CharlesPeltonProject01/CharlesPeltonTask03/simfs/build/CMakeFiles/edit_cache.dir
